@@ -1,0 +1,60 @@
+/* Reset some basic margins/paddings */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #67d7a6;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main section */
+main {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+article {
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer styling */
+footer {
+  background-color: #26ca9b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
